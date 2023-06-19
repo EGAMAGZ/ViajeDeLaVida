@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Paint : Interactable
 {
+
+    public Cloth cloth;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        cloth = transform.GetComponentInChildren<Cloth>();
     }
 
     // Update is called once per frame
@@ -19,6 +22,7 @@ public class Paint : Interactable
     public override void Interact(){
         base.Interact();
 
-        Destroy(gameObject);
+        cloth.ClearTransformMotion();
+        Debug.Log("CLEARED");
     }
 }

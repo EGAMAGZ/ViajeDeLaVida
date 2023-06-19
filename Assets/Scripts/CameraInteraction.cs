@@ -21,7 +21,6 @@ public class CameraInteraction : MonoBehaviour
     {
         Debug.DrawRay(camera.position, camera.forward * rayDistance, Color.red);
 
-        // PRESS DOWN E BUTTON
         if (Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit hit;
