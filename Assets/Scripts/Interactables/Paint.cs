@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Paint : Interactable
 {
+    private bool isInfoDisplayed = false;
 
-    public Cloth cloth;
+    private GameObject meaningCanvas;
+    private GameObject interactCanvas;
 
     // Start is called before the first frame update
     void Start()
     {
-        cloth = transform.GetComponentInChildren<Cloth>();
+        meaningCanvas = transform.Find("MeaningPaintCanvas").gameObject;
+        interactCanvas = transform.Find("InteractPaintCanvas").gameObject;
     }
 
     // Update is called once per frame
@@ -22,7 +25,10 @@ public class Paint : Interactable
     public override void Interact(){
         base.Interact();
 
-        cloth.ClearTransformMotion();
-        Debug.Log("CLEARED");
+
+        isInfoDisplayed = !isInfoDisplayed;
+
+        meaningCanvas.SetActive(isInfoDisplayed);
+        interactCanvas.SetActive(!isInfoDisplayed);
     }
 }
