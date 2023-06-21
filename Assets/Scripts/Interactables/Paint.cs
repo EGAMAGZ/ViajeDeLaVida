@@ -5,39 +5,24 @@ using UnityEngine;
 public class Paint : Interactable
 {
     private bool isInfoDisplayed = false;
-    private bool isPlayerNear = false;
-
-    private const float playerDistance = 10f;
 
     private GameObject meaningCanvas;
     private GameObject interactCanvas;
-    private GameObject player;
 
+    // Start is called before the first frame update
     void Start()
     {
         meaningCanvas = transform.Find("MeaningPaintCanvas").gameObject;
         interactCanvas = transform.Find("InteractPaintCanvas").gameObject;
-        player = GameObject.Find("Player");
     }
 
+    // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(player.transform.position, transform.position);
-        isPlayerNear = distance < playerDistance;
-        if (isPlayerNear)
-        {
-            meaningCanvas.SetActive(isInfoDisplayed);
-            interactCanvas.SetActive(!isInfoDisplayed);
-        }
-        else
-        {
-            meaningCanvas.SetActive(false);
-            interactCanvas.SetActive(false);
-        }
+        
     }
 
-    public override void Interact()
-    {
+    public override void Interact(){
         base.Interact();
 
 
