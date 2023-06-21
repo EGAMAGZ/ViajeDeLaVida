@@ -21,12 +21,12 @@ public class CameraInteraction : MonoBehaviour
     {
         Debug.DrawRay(camera.position, camera.forward * rayDistance, Color.red);
 
-        if (Input.GetKeyDown(KeyCode.E))
+        RaycastHit hit;
+        if (Physics.Raycast(camera.position, camera.forward, out hit, rayDistance, interactableLayer))
         {
-            RaycastHit hit;
-            if (Physics.Raycast(camera.position, camera.forward, out hit, rayDistance, interactableLayer))
+            Debug.Log(hit.transform.name);
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log(hit.transform.name);
                 hit.transform.GetComponent<Interactable>().Interact();
             }
         }
