@@ -1521,6 +1521,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fd27e60e2e946e42bdd9d700b36ebb2, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Los viejos m\xFAsicos\" (1665) de Diego Vel\xE1zquez: \n\nEsta pintura
+        retrata a varios m\xFAsicos ancianos que tocan diferentes instrumentos en
+        un ambiente modesto. Vel\xE1zquez captura las arrugas y la fragilidad f\xEDsica
+        de los personajes, transmitiendo una sensaci\xF3n de dignidad y experiencia
+        acumulada en la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -1601,6 +1620,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &64302577
@@ -19685,6 +19709,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b9fa21b8e61b2cc4f84c0c9107da8d94, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Retrato del doctor Gachet\" (1890) de Vincent van Gogh: \n\nEsta
+        ic\xF3nica pintura retrata al m\xE9dico del artista, el doctor Gachet, en
+        su vejez. Van Gogh utiliza pinceladas expresivas y colores intensos para
+        capturar la melancol\xEDa y la introspecci\xF3n asociadas con la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -19765,6 +19807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &870201554
