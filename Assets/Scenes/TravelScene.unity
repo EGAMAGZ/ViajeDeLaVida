@@ -24,9 +24,9 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: aeab33f69c199e54794f516d31450ec4, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 5
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_Sun: {fileID: 2114283754330233425}
+  m_IndirectSpecularColor: {r: 0.025252314, g: 0.054982007, b: 0.11085914, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -126,6 +126,41 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1622028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622029}
+  m_Layer: 0
+  m_Name: CuertoPiso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1622029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1923437584}
+  - {fileID: 1952867519}
+  - {fileID: 1814010764}
+  - {fileID: 76392193}
+  m_Father: {fileID: 1191527031}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6180912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,27 +1519,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1622029}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -1776,27 +1811,46 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 47fb04d940c53d94585b2e0b64973437, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Retrato de Dora Maar\" (1937) de Pablo Picasso: \n\nEsta pintura
+        muestra a Dora Maar, una de las musas de Picasso, quien fue retratada en
+        varias etapas de su vida. En este retrato en particular, se captura a Dora
+        Maar en su juventud, transmitiendo una sensaci\xF3n de misterio y introspecci\xF3n
+        propias de la adolescencia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -1858,6 +1912,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!4 &76392193 stripped
@@ -7585,27 +7644,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1622029}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -7674,27 +7733,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 914949633}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -15760,7 +15819,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 748388335}
     m_Modifications:
     - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -15783,17 +15842,17 @@ PrefabInstance:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -16358,7 +16417,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 748388335}
     m_Modifications:
     - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -16386,17 +16445,17 @@ PrefabInstance:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -16651,6 +16710,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
+--- !u!1 &748388334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 748388335}
+  m_Layer: 0
+  m_Name: PrimerPiso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &748388335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748388334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 807432384}
+  - {fileID: 282086654}
+  - {fileID: 545613743}
+  - {fileID: 515894165}
+  m_Father: {fileID: 1191527031}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &750011364
 GameObject:
   m_ObjectHideFlags: 0
@@ -17352,27 +17446,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 914949633}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -19530,27 +19624,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1622029}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -20628,6 +20722,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910153080}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &914949632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914949633}
+  m_Layer: 0
+  m_Name: TercerPiso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914949633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914949632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1650052078}
+  - {fileID: 1892184233}
+  - {fileID: 113827155}
+  - {fileID: 421751631}
+  m_Father: {fileID: 1191527031}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914994074
 GameObject:
   m_ObjectHideFlags: 0
@@ -23535,27 +23664,45 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83ce1725e09274e41b2f50771521a62d, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Los amantes\" (1928) de Ren\xE9 Magritte: \n\nEn esta pintura surrealista,
+        se muestra a dos figuras j\xF3venes bes\xE1ndose con las cabezas envueltas
+        en telas blancas. La obra evoca la intimidad y el misterio de los primeros
+        amores y las emociones tumultuosas de la adolescencia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -23565,7 +23712,7 @@ PrefabInstance:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.791
+      value: -0.7909999
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -23617,6 +23764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &1058234654
@@ -24989,27 +25141,47 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 98cdbb3b767dfc540aae3834cf35f8af, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Las se\xF1oritas de Avignon\" (1907) de Pablo Picasso:\n \nEsta obra
+        maestra del cubismo retrata a cinco figuras femeninas en un estilo abstracto
+        y geom\xE9trico. Aunque no se representa expl\xEDcitamente la adolescencia,
+        esta pintura simboliza la ruptura con las convenciones tradicionales y la
+        b\xFAsqueda de nuevas formas de expresi\xF3n, caracter\xEDsticas asociadas
+        a la adolescencia y el per\xEDodo de transici\xF3n.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -25071,6 +25243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &1150033163
@@ -25495,22 +25672,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 807432384}
-  - {fileID: 282086654}
-  - {fileID: 545613743}
-  - {fileID: 1534840628}
-  - {fileID: 518905203}
-  - {fileID: 675921350}
-  - {fileID: 515894165}
-  - {fileID: 1548806002}
-  - {fileID: 76392193}
-  - {fileID: 1814010764}
-  - {fileID: 1952867519}
-  - {fileID: 1923437584}
-  - {fileID: 1650052078}
-  - {fileID: 1892184233}
-  - {fileID: 113827155}
-  - {fileID: 421751631}
+  - {fileID: 1757878969}
+  - {fileID: 748388335}
+  - {fileID: 914949633}
+  - {fileID: 1622029}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32077,7 +32242,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 748388335}
     m_Modifications:
     - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -32105,17 +32270,17 @@ PrefabInstance:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -34102,27 +34267,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1622029}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -37233,6 +37398,41 @@ Transform:
   m_Father: {fileID: 231291868}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1757878968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757878969}
+  m_Layer: 0
+  m_Name: SegunoPiso
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757878969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757878968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 675921350}
+  - {fileID: 1548806002}
+  - {fileID: 1534840628}
+  - {fileID: 518905203}
+  m_Father: {fileID: 1191527031}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1761456807
 GameObject:
   m_ObjectHideFlags: 0
@@ -38028,27 +38228,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 914949633}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -41199,27 +41399,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 914949633}
     m_Modifications:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -41773,27 +41973,45 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7d4e77d24a44914bbf18937d154070b, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El beso\" (1907-1908) de Gustav Klimt: \n\nEsta ic\xF3nica obra muestra
+        a una pareja joven abrazada y bes\xE1ndose. La pintura evoca el amor y la
+        pasi\xF3n de la adolescencia, y representa el despertar de la sexualidad
+        y la exploraci\xF3n emocional propia de esa etapa."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -41803,7 +42021,7 @@ PrefabInstance:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.791
+      value: -0.7909999
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -41855,6 +42073,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &2013635116
@@ -43358,7 +43581,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1191527031}
+    m_TransformParent: {fileID: 748388335}
     m_Modifications:
     - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -43381,22 +43604,22 @@ PrefabInstance:
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
@@ -44468,7 +44691,7 @@ Camera:
   m_GameObject: {fileID: 8944336656349189697}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
