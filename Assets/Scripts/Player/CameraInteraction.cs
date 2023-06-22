@@ -8,7 +8,7 @@ public class CameraInteraction : MonoBehaviour
     public Transform camera;
 
     [Header("Ray Distance")]
-    public float rayDistance = 4f;
+    public float rayDistance = 6f;
 
     [Header("Interactable Layer")]
     public LayerMask interactableLayer;
