@@ -7735,6 +7735,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1274d7c59ac5f2140a9ebfcd40d606a2, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El matrimonio Arnolfini\" (1434) de Jan van Eyck: \n\nEsta pintura
+        de la \xE9poca del Renacimiento representa a una pareja casada, Giovanni
+        Arnolfini y su esposa, en una habitaci\xF3n lujosa. La obra simboliza la
+        vida adulta, el compromiso y las responsabilidades conyugales."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -7815,6 +7833,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &335530050
@@ -17448,6 +17471,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d591e9142b80d364e987947b826b89ba, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Retrato del papa Inocencio X\" (1650) de Diego Vel\xE1zquez: \n\nEsta
+        pintura muestra al papa Inocencio X en una pose imponente y poderosa. Representa
+        la figura de un l\xEDder adulto en una posici\xF3n de autoridad y responsabilidad."
+      objectReference: {fileID: 0}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -38230,6 +38265,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39b65f4a5b0bb864896d53b703af9f2c, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Retrato de Madame X\" (1884) de John Singer Sargent: \n\nEsta pintura
+        retrata a una mujer elegante y segura de s\xED misma, conocida como Madame
+        X. La obra representa la sofisticaci\xF3n y la belleza de la mujer adulta."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -38310,6 +38362,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &1804987540
@@ -41401,6 +41458,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d7bdf1d6e57034d4ab7af96339d37e2a, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El sue\xF1o\" (1932) de Pablo Picasso: \n\nEsta pintura surrealista
+        muestra una escena on\xEDrica con una mujer adulta durmiendo. Picasso emplea
+        formas y colores audaces para representar la complejidad de los sue\xF1os
+        y la psicolog\xEDa del individuo adulto."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -41481,6 +41556,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &1989893613
