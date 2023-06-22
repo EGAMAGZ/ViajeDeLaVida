@@ -7646,6 +7646,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 820b642c86de769479a6de17ecb33a22, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"La lectura del testamento\" (1806) de Jean-Baptiste Greuze: \n\nEsta
+        pintura representa a un anciano leyendo su testamento rodeado de sus familiares
+        y herederos. Greuze muestra el drama y la tensi\xF3n emocional relacionados
+        con la distribuci\xF3n de la herencia y el final de la vida, explorando las
+        relaciones familiares en la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -7726,6 +7745,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1001 &328422961
@@ -34304,6 +34328,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dd731d5c030743140863658937bd31e3, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El anciano pescador\" (1862) de Jozef Isra\xEBls: \n\nEsta pintura
+        muestra a un pescador de avanzada edad sentado en la playa despu\xE9s de
+        un largo d\xEDa de trabajo. Isra\xEBls utiliza una paleta de colores suaves
+        y detalles realistas para representar la fatiga y la sabidur\xEDa que se
+        asocian con la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -34384,6 +34427,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &1593816838
