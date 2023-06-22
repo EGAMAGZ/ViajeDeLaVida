@@ -15762,6 +15762,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1191527031}
     m_Modifications:
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El ni\xF1o azul\" (1770) de Thomas Gainsborough:\n\nEsta pintura
+        muestra a un ni\xF1o vestido de azul con un sombrero de paja, rodeado de
+        un paisaje campestre sereno. Es una representaci\xF3n ic\xF3nica de la inocencia
+        y la serenidad infantil."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -15842,6 +15855,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &721026046
@@ -16342,6 +16360,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1191527031}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 11186ed864afc004ea1db35abfc2035f, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Las dos hermanas\" (1881) de Pierre-Auguste Renoir: \n\nEsta obra
+        muestra a dos ni\xF1as, probablemente hermanas, en un jard\xEDn. El cuadro
+        transmite una sensaci\xF3n de complicidad y afecto entre las dos hermanas,
+        capturando la esencia de la relaci\xF3n entre hermanos en la infancia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -16421,6 +16457,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Paint (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
+    - target: {fileID: 4438416315199897457, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
@@ -32033,6 +32079,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1191527031}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f650e49cccf77c644adf559787b80f39, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El ni\xF1o y su madre\" (1940) de Pablo Picasso: \n\nEsta pintura
+        abstracta muestra la figura estilizada de un ni\xF1o junto a su madre. Picasso
+        utiliz\xF3 formas geom\xE9tricas y colores vibrantes para representar la
+        relaci\xF3n entre madre e hijo, evocando una sensaci\xF3n de ternura y protecci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -32113,6 +32177,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &1497569242
@@ -43291,6 +43360,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1191527031}
     m_Modifications:
+    - target: {fileID: 4407680436984547731, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb8645b663dd1a54eb728267eb4610a0, type: 2}
+    - target: {fileID: 4431494872902149173, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Ni\xF1os en la playa\" (1884) de Mary Cassatt: \n\nCassatt era conocida
+        por sus retratos de madres e hijos, y esta obra no es una excepci\xF3n. Muestra
+        a un grupo de ni\xF1os jugando en la playa bajo la supervisi\xF3n de una
+        madre. Captura la alegr\xEDa y la energ\xEDa l\xFAdica de la infancia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431494873275718646, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     - target: {fileID: 4431494873315129865, guid: 450f1faba6411e945a003534a06350b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -43371,6 +43458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paint (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4431494874279025248, guid: 450f1faba6411e945a003534a06350b0,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8944336656349189699}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 450f1faba6411e945a003534a06350b0, type: 3}
 --- !u!1 &2113726391
