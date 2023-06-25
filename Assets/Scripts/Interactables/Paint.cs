@@ -7,7 +7,7 @@ public class Paint : Interactable
     private bool isInfoDisplayed = false;
     private bool isPlayerNear = false;
 
-    private const float playerDistance = 10f;
+    private const float playerDistance = 3f;
 
     private GameObject meaningCanvas;
     private GameObject interactCanvas;
@@ -17,7 +17,7 @@ public class Paint : Interactable
     {
         meaningCanvas = transform.Find("MeaningPaintCanvas").gameObject;
         interactCanvas = transform.Find("InteractPaintCanvas").gameObject;
-        player = GameObject.Find("Player");
+        player = GameObject.Find("PlayerArmature");
     }
 
     void Update()
