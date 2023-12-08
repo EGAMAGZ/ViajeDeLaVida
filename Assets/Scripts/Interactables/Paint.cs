@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ public class Paint : Interactable
     private bool isInfoDisplayed = false;
     private bool isPlayerNear = false;
 
-    private const float playerDistance = 3f;
+    private const float playerDistance = 5f;
 
     private GameObject meaningCanvas;
     private GameObject interactCanvas;
@@ -17,12 +18,15 @@ public class Paint : Interactable
     {
         meaningCanvas = transform.Find("MeaningPaintCanvas").gameObject;
         interactCanvas = transform.Find("InteractPaintCanvas").gameObject;
-        player = GameObject.Find("PlayerArmature");
+        player = GameObject.FindWithTag("Player");
     }
 
     void Update()
     {
-        float distance = Vector3.Distance(player.transform.position, transform.position);
+        float distance = Vector3.Distance(
+            player.transform.position,
+            transform.position
+            );
         isPlayerNear = distance < playerDistance;
         if (isPlayerNear)
         {
@@ -33,6 +37,7 @@ public class Paint : Interactable
         {
             meaningCanvas.SetActive(false);
             interactCanvas.SetActive(false);
+            isInfoDisplayed = false;
         }
     }
 
