@@ -31284,10 +31284,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"Retrato de Dora Maar" (1937) de Pablo Picasso'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura muestra a Dora Maar, una de las musas de Picasso, quien
+        fue retratada en varias etapas de su vida. En este retrato en particular,
+        se captura a Dora Maar en su juventud, transmitiendo una sensaci\xF3n de
+        misterio y introspecci\xF3n propias de la adolescencia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 47fb04d940c53d94585b2e0b64973437, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint
+      value: ARPaint_retrato_dora_maar
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -54870,10 +54888,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Las se\xF1oritas de Avignon\" (1907) de Pablo Picasso"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta obra maestra del cubismo retrata a cinco figuras femeninas en
+        un estilo abstracto y geom\xE9trico. Aunque no se representa expl\xEDcitamente
+        la adolescencia, esta pintura simboliza la ruptura con las convenciones tradicionales
+        y la b\xFAsqueda de nuevas formas de expresi\xF3n, caracter\xEDsticas asociadas
+        a la adolescencia y el per\xEDodo de transici\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 98cdbb3b767dfc540aae3834cf35f8af, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (2)
+      value: ARPaint_senoritas_avignon
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -62019,10 +62056,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"El beso" (1907-1908) de Gustav Klimt'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta ic\xF3nica obra muestra a una pareja joven abrazada y bes\xE1ndose.
+        La pintura evoca el amor y la pasi\xF3n de la adolescencia, y representa
+        el despertar de la sexualidad y la exploraci\xF3n emocional propia de esa
+        etapa."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7d4e77d24a44914bbf18937d154070b, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (1)
+      value: ARPaint_beso
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -69742,10 +69797,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1757878969}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Los amantes\" (1928) de Ren\xE9 Magritte"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "En esta pintura surrealista, se muestra a dos figuras j\xF3venes bes\xE1ndose
+        con las cabezas envueltas en telas blancas. La obra evoca la intimidad y
+        el misterio de los primeros amores y las emociones tumultuosas de la adolescencia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83ce1725e09274e41b2f50771521a62d, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (3)
+      value: ARPaint_amantes
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
