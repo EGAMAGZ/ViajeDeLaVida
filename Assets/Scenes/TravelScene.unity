@@ -9983,10 +9983,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 748388335}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"La leche materna" (1895) de Gustav Klimt'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "En esta pintura simb\xF3lica, Klimt muestra a una madre amamantando
+        a su beb\xE9. La obra refleja la conexi\xF3n profunda y la intimidad entre
+        madre e hijo, representando la maternidad en la etapa temprana de la vida."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 09c960f495d80d149ab8cfec9b077dd6, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (1)
+      value: ARPaint_leche_materna
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -19463,82 +19480,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 762311123}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &527625006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 527625007}
-  - component: {fileID: 527625009}
-  - component: {fileID: 527625008}
-  m_Layer: 0
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &527625007
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527625006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 701767007}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2, y: 2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &527625008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527625006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 718049dbccba4fb449b52fcd2786de6a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &527625009
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527625006}
-  m_CullTransparentMesh: 1
 --- !u!1 &531703400
 GameObject:
   m_ObjectHideFlags: 0
@@ -22477,10 +22418,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 748388335}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"Las dos hermanas" (1881) de Pierre-Auguste Renoir'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta obra muestra a dos ni\xF1as, probablemente hermanas, en un jard\xEDn.
+        El cuadro transmite una sensaci\xF3n de complicidad y afecto entre las dos
+        hermanas, capturando la esencia de la relaci\xF3n entre hermanos en la infancia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 11186ed864afc004ea1db35abfc2035f, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint
+      value: ARPaint_dos_hermanas
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -25886,107 +25844,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7eaadca71fab77447860a121cc907048, type: 3}
---- !u!1 &701767003
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 701767007}
-  - component: {fileID: 701767006}
-  - component: {fileID: 701767005}
-  - component: {fileID: 701767004}
-  m_Layer: 0
-  m_Name: Marcador (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &701767004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701767003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &701767005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701767003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
---- !u!223 &701767006
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701767003}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 8944336656349189699}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &701767007
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701767003}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 527625007}
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 6.346}
-  m_SizeDelta: {x: 2, y: 2}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &708200590
 GameObject:
   m_ObjectHideFlags: 0
@@ -27890,6 +27747,7 @@ Transform:
   - {fileID: 1181243469}
   - {fileID: 1193547772}
   - {fileID: 614273699}
+  - {fileID: 1063115735}
   m_Father: {fileID: 1191527031}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30946,7 +30804,7 @@ RectTransform:
   m_Children:
   - {fileID: 427360573}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -33435,6 +33293,7 @@ Transform:
   - {fileID: 573271081}
   - {fileID: 641646678}
   - {fileID: 1935865852}
+  - {fileID: 954549748}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34886,6 +34745,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950071754}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &954549747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 900730195}
+    m_Modifications:
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.358
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547779169572, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_Name
+      value: CustomSpotlight (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287840547881141323, guid: 83aca917d37e7a342acfed94a5288bc0,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83aca917d37e7a342acfed94a5288bc0, type: 3}
+--- !u!4 &954549748 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3287840547779169563, guid: 83aca917d37e7a342acfed94a5288bc0,
+    type: 3}
+  m_PrefabInstance: {fileID: 954549747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &955349731
 GameObject:
   m_ObjectHideFlags: 0
@@ -39353,6 +39292,114 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 564659949}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1063115734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 748388335}
+    m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El ni\xF1o y su madre\" (1940) de Pablo Picasso"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura abstracta muestra la figura estilizada de un ni\xF1o junto
+        a su madre. Picasso utiliz\xF3 formas geom\xE9tricas y colores vibrantes
+        para representar la relaci\xF3n entre madre e hijo, evocando una sensaci\xF3n
+        de ternura y protecci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f650e49cccf77c644adf559787b80f39, type: 2}
+    - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Name
+      value: ARPaint_nino_madre
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.859
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3cd5e7c58f686e4ea2f1b7df84da370, type: 3}
+--- !u!4 &1063115735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+    type: 3}
+  m_PrefabInstance: {fileID: 1063115734}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1063457288 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5593851134867139336, guid: 893a0fc591e16fd4fa775642a5852ed0,
@@ -39435,10 +39482,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 748388335}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Ni\xF1os en la playa\" (1884) de Mary Cassatt"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Cassatt era conocida por sus retratos de madres e hijos, y esta obra
+        no es una excepci\xF3n. Muestra a un grupo de ni\xF1os jugando en la playa
+        bajo la supervisi\xF3n de una madre. Captura la alegr\xEDa y la energ\xEDa
+        l\xFAdica de la infancia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb8645b663dd1a54eb728267eb4610a0, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (2)
+      value: ARPaint_ninos_playa
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -39610,7 +39675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 2.43}
+  m_AnchoredPosition: {x: 0, y: 6.33}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1070306859
@@ -48283,7 +48348,7 @@ RectTransform:
   m_Children:
   - {fileID: 1510835117}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -59568,10 +59633,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 748388335}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El ni\xF1o azul\" (1770) de Thomas Gainsborough"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura muestra a un ni\xF1o vestido de azul con un sombrero de
+        paja, rodeado de un paisaje campestre sereno. Es una representaci\xF3n ic\xF3nica
+        de la inocencia y la serenidad infantil."
+      objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (3)
+      value: ARPaint_nino_azul
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
