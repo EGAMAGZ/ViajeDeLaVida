@@ -15840,10 +15840,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"La lectura del testamento" (1806) de Jean-Baptiste Greuze'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura representa a un anciano leyendo su testamento rodeado
+        de sus familiares y herederos. Greuze muestra el drama y la tensi\xF3n emocional
+        relacionados con la distribuci\xF3n de la herencia y el final de la vida,
+        explorando las relaciones familiares en la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 820b642c86de769479a6de17ecb33a22, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (2)
+      value: ARPaint_lectura_testamento
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -19408,10 +19426,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"Retrato del doctor Gachet" (1890) de Vincent van Gogh'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta ic\xF3nica pintura retrata al m\xE9dico del artista, el doctor
+        Gachet, en su vejez. Van Gogh utiliza pinceladas expresivas y colores intensos
+        para capturar la melancol\xEDa y la introspecci\xF3n asociadas con la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b9fa21b8e61b2cc4f84c0c9107da8d94, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (3)
+      value: ARPaint_retrato_doctor_gachet
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -38676,10 +38711,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Los viejos m\xFAsicos\" (1665) de Diego Vel\xE1zquez"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura retrata a varios m\xFAsicos ancianos que tocan diferentes
+        instrumentos en un ambiente modesto. Vel\xE1zquez captura las arrugas y la
+        fragilidad f\xEDsica de los personajes, transmitiendo una sensaci\xF3n de
+        dignidad y experiencia acumulada en la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fd27e60e2e946e42bdd9d700b36ebb2, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint
+      value: ARPaint_viejos_musicos
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -40213,10 +40266,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1622029}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El anciano pescador\" (1862) de Jozef Isra\xEBls"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura muestra a un pescador de avanzada edad sentado en la playa
+        despu\xE9s de un largo d\xEDa de trabajo. Isra\xEBls utiliza una paleta de
+        colores suaves y detalles realistas para representar la fatiga y la sabidur\xEDa
+        que se asocian con la vejez."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dd731d5c030743140863658937bd31e3, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (1)
+      value: ARPaint_anciano_pescador
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
