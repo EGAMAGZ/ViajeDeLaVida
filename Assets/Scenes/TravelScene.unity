@@ -9893,10 +9893,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"El matrimonio Arnolfini" (1434) de Jan van Eyck'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura de la \xE9poca del Renacimiento representa a una pareja
+        casada, Giovanni Arnolfini y su esposa, en una habitaci\xF3n lujosa. La obra
+        simboliza la vida adulta, el compromiso y las responsabilidades conyugales."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1274d7c59ac5f2140a9ebfcd40d606a2, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (3)
+      value: ARPaint_matrimonio_arnolfini
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -36962,10 +36979,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"El sue\xF1o\" (1932) de Pablo Picasso"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura surrealista muestra una escena on\xEDrica con una mujer
+        adulta durmiendo. Picasso emplea formas y colores audaces para representar
+        la complejidad de los sue\xF1os y la psicolog\xEDa del individuo adulto."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d7bdf1d6e57034d4ab7af96339d37e2a, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (2)
+      value: ARPaint_sueno
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -43782,10 +43816,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "\"Retrato del papa Inocencio X\" (1650) de Diego Vel\xE1zquez"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura muestra al papa Inocencio X en una pose imponente y poderosa.
+        Representa la figura de un l\xEDder adulto en una posici\xF3n de autoridad
+        y responsabilidad."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d591e9142b80d364e987947b826b89ba, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint
+      value: ARPaint_retrato_papa_inocencio_x
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
@@ -63366,10 +63417,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 914949633}
     m_Modifications:
+    - target: {fileID: 1956572407349904124, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: '"Retrato de Madame X" (1884) de John Singer Sargent'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956572407406822109, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_text
+      value: "Esta pintura retrata a una mujer elegante y segura de s\xED misma,
+        conocida como Madame X. La obra representa la sofisticaci\xF3n y la belleza
+        de la mujer adulta."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741599524745838453, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39b65f4a5b0bb864896d53b703af9f2c, type: 2}
     - target: {fileID: 2763223522923007212, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
       propertyPath: m_Name
-      value: ARPaint (1)
+      value: ARPaint_retrato_madame_x
       objectReference: {fileID: 0}
     - target: {fileID: 2763223522923007215, guid: e3cd5e7c58f686e4ea2f1b7df84da370,
         type: 3}
